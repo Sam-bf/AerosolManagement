@@ -1,0 +1,13 @@
+.listeAjout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align vertically */
+}
+
+.listeAjoutPrep, .listeAjoutApp {
+    flex: 1; /* This makes each div take equal space */
+    margin: 10px; /* Adds some space around each div */
+    padding: 20px; /* Adds space inside each div */
+    border: 1px solid #ccc; /* Adds a border for visual separation */
+    text-align: center; /* Centers the content */
+}
